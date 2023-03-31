@@ -1,0 +1,51 @@
+.todo-main {
+  padding-top: 20vh;
+  height: fit-content;
+}
+
+.todo-submain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(221, 225, 225, 0.6);
+  padding: 2rem 1rem;
+  width: max-content;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-content {
+  width: 100%;
+}
+
+.todo-submain input {
+  width: 500px;
+}
+
+.todo-list {
+  padding: 1rem 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.todo-list h6 {
+  width: 100%;
+  padding-left: 1rem;
+}
+.todo-list input {
+  width: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.action-buttons button {
+  margin-left: 1.5rem;
+}
